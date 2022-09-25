@@ -60,6 +60,13 @@ $ npm run build
 pm2 start npm --name "evaluation-cycle" -- run start:prod
 ```
 
+**Kafka Implementation with test json**
+
+Follow the command in the terminal
+```shell script
+npx nestjs-command kafka:publish-data-to-kafka-topic
+```
+
 ## Test
 
 ```bash
